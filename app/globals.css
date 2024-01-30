@@ -10,14 +10,27 @@ h1 {
   font-size: 2rem;
 }
 
-ul {
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.17rem;
+}
+
+ul,
+ol {
   display: block;
   list-style-type: disc;
   margin-top: 1em;
   margin-bottom: 1 em;
   margin-left: 0;
   margin-right: 0;
-  padding-left: 40px;
+  padding-left: 30px;
+}
+
+ol {
+  list-style-type: decimal;
 }
 
 li {

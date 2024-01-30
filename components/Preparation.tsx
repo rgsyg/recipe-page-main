@@ -3,7 +3,7 @@ import React from 'react'
 const Preparation = () => {
     return (
         <section className="m-10">
-            <h5>Preparation time</h5>
+            <h3>Preparation time</h3>
             <ul>
                 <li>Total: Approximately 10 minutes</li>
                 <li>Preparation: 5 minutes</li>
