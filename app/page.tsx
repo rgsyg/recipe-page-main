@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Ingredients from "@/components/Ingredients";
 import Instructions from "@/components/Instructions";
@@ -20,12 +21,13 @@ export default function Home() {
   return (
     <>
       <div className="bg-white w-[110svh] mx-auto my-20 rounded-xl flex flex-col">
-        <div className={`${outfit.className} m-8`}>
+        <div className={`${outfit.className} m-8 text-dark-charcoal`}>
           <Hero font={`${youngSerif.className}`} />
           <Preparation />
-          <Ingredients />
-          <Instructions />
-          <Nutrition />
+          <Ingredients font={`${youngSerif.className}`} />
+          <Instructions font={`${youngSerif.className}`} />
+          <Nutrition font={`${youngSerif.className}`} />
+          <Footer />
         </div>
       </div>
     </>

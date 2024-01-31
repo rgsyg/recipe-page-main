@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Ingredients = () => {
+const Ingredients = ({ font }: any) => {
   return (
     <section>
-      <h2>Ingredients</h2>
+      <h2 className={`${font} mb-4`}>Ingredients</h2>
       <ol>
         <li>2-3 large eggs</li>
         <li>Salt, to taste</li>

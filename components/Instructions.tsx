@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Instructions = () => {
+const Instructions = ({ font }: any) => {
   return (
     <section>
       <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
-      <h2>Instructions</h2>
+      <h2 className={`${font} mb-4`}>Instructions</h2>
       <ol>
         <li>
           Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
