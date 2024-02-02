@@ -3,7 +3,7 @@ import React from 'react'
 const Instructions = ({ font }: any) => {
   return (
     <section>
-      <hr className="h-px my-8 bg-light-grey "></hr>
+      <hr className="h-px my-8 bg-light-grey"></hr>
       <h2 className={`${font} mb-4`}>Instructions</h2>
       <ol className="flex flex-col gap-2 text-nutmeg font-bold">
         <li><div className="pl-4 text-wenge-brown">Beat the eggs<span className="font-normal">: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.</span></div></li>
