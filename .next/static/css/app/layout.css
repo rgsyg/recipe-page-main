@@ -564,6 +564,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
+.bg-light-grey {
+  --tw-bg-opacity: 1;
+  background-color: hsl(30 18% 87% / var(--tw-bg-opacity));
+}
 .bg-rose-white {
   --tw-bg-opacity: 1;
   background-color: hsl(330 100% 98% / var(--tw-bg-opacity));
@@ -591,6 +595,9 @@ video {
 .font-bold {
   font-weight: 700;
 }
+.font-normal {
+  font-weight: 400;
+}
 .text-dark-charcoal {
   --tw-text-opacity: 1;
   color: hsl(24 5% 18% / var(--tw-text-opacity));
@@ -599,17 +606,13 @@ video {
   --tw-text-opacity: 1;
   color: hsl(332 51% 32% / var(--tw-text-opacity));
 }
-.text-wenge-brown {
-  --tw-text-opacity: 1;
-  color: hsl(30 10% 34% / var(--tw-text-opacity));
-}
 .text-nutmeg {
   --tw-text-opacity: 1;
   color: hsl(14 45% 36% / var(--tw-text-opacity));
 }
-.text-light-grey {
+.text-wenge-brown {
   --tw-text-opacity: 1;
-  color: hsl(30 18% 87% / var(--tw-text-opacity));
+  color: hsl(30 10% 34% / var(--tw-text-opacity));
 }
 
 :root {
@@ -649,7 +652,7 @@ ol {
   margin-bottom: 1em;
   margin-left: 0;
   margin-right: 0;
-  padding-left: 30px;
+  padding-left: 24px;
 }
 
 ol {
@@ -658,34 +661,6 @@ ol {
 
 li {
   display: list-item;
-}
-
-.marker\:bg-red-100 *::marker {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 226 226 / var(--tw-bg-opacity));
-}
-
-.marker\:bg-red-700 *::marker {
-  --tw-bg-opacity: 1;
-  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
-}
-
-.marker\:accent-wenge-brown *::marker {
-  accent-color: hsl(30, 10%, 34%);
-}
-
-.marker\:bg-red-100::marker {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 226 226 / var(--tw-bg-opacity));
-}
-
-.marker\:bg-red-700::marker {
-  --tw-bg-opacity: 1;
-  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
-}
-
-.marker\:accent-wenge-brown::marker {
-  accent-color: hsl(30, 10%, 34%);
 }
 
 @media (prefers-color-scheme: dark) {
